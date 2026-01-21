@@ -93,7 +93,7 @@ def delete_task():
             return
         
         deleting_task = task[task_index - 1]
-        del tasks[task_index - 1]
+        del task[task_index - 1]
         
         print(f'Task "{deleting_task}" deleted successfully.')
         
